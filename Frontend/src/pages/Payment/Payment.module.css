@@ -1,0 +1,83 @@
+.payment__header{
+
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(234, 237, 237);
+
+}
+
+
+.payment__container {
+
+    padding: 30px;
+
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+}
+
+.flex h3 {
+
+    min-width: 300px;
+}
+
+.flex img {
+    width: 80px !important;
+}
+
+.flex div {
+    height: auto !important;
+}
+
+.Payment_Card_Container {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+/* .Payment_Details{
+    font-size: 16ox;
+} */
+
+.Payment_price {
+    padding: 20px;
+}
+
+.Payment_price > div{
+
+    display: flex;
+    font-size: 16px;
+    gap: 20px;
+}
+
+.Payment_Details button {
+  margin-top: 15px;
+  width: 100%;
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+.Payment_Details button:hover {
+  background-color: var(--primary-shade);
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    color: rgba(52, 52, 52, alpha);
+}
+@media screen and (max-width: 768px) {
+    .flex{
+        flex-direction: column;
+    }
+}

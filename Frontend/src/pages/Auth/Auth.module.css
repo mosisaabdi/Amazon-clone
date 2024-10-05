@@ -1,0 +1,157 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.login img {
+  margin: 30px auto;
+  object-fit: contain;
+  width: 100px;
+}
+.login_Container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login_Container h1 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.login_Container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.login_Container form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login_Container form input {
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: white;
+  width: 100%;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+.SignIn_button {
+  width: 100%;
+  border: none;
+  padding: 8px 16px;
+  background-color: #f0c14b;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.login_Container form input:focus {
+  outline: 2px solid skyblue;
+}
+
+.login_Container p {
+  padding: 10px 0;
+  font-size: 14px;
+  color: gray;
+}
+.login_Container label {
+  font-size: 14px;
+  font-weight: 600;
+  
+}
+.SignUp_button {
+  width: 100%;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.SignIn_button:hover {
+  background-color: var(--primary-shade)
+}
+.SignUp_button:hover {
+  background-color: lightgray;
+}
+
+/* App.module.css*/
+/* 
+.container {
+  max-width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.authForm label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.authForm input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddb347;
+}
+
+p {
+  font-size: 12px;
+  color: #666;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.toggleBtn {
+  background-color: #ffffff;
+  border: none;
+  color: #0066c0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.toggleBtn:hover {
+  color: #ff9900;
+} */
